@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    align-items: center;
+}
+
+.logo {}
+
+.sign-out {
+    position: relative;
+    left: 82%;
+}
+
+.bank-name {
+    margin-left: 1%;
+}
+
+.logo-png {
+    width: 50px;
+}

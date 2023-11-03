@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diving into Blockchain</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        div {
+            width: 20%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        button {
+            width: 100%;
+            margin: 10px 0px 5px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>My first Dapp</h1>
+        <label for="mood">Input Mood:</label><br />
+        <input type="text" id="mood" />
+
+        <button onclick="setMood()">Set Mood</button>
+        <button onclick="getMood()">Get Mood</button>
+        <p id="showMood"></p>
+    </div>
+</body>
+
+<script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js" type="application/javascript"></script>
+<script src="mood.js" type="application/javascript"></script>
+
+</html>
